@@ -1,0 +1,23 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.grid,.input-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+input{
+    padding:5px
+}
+.add-button{
+    background-color: rgba(3, 179, 47, 0.993);
+    padding:5px 30px;
+    color:wheat
+}
+.delete-button{
+    background-color: red;
+    padding:5px 30px;
+}
+
